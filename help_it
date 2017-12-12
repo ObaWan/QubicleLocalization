@@ -1,0 +1,305 @@
+[INI]
+THIS_LANGUAGE = Italiano
+
+[DIV]
+
+F1_HELP = Premi F1 per ulteriore aiuto
+DBL_CLICK_EDIT = Doppio-click per modificare
+DBL_CLICK_EXIT = Doppio-click per uscire dalla Modifica della Matrice
+DBL_CLICK_BACK = Doppio-click per tornare indietro al Nodo Principale
+
+[FILE]
+NEW_MODEL = Crea un Nuovo Modello
+NEW_MATRIX = Crea una nuova Matrice come oggetto radice
+NEW_COMPOUND = Crea una nuova Composizione come oggetto radice
+OPEN = Apri un file
+CLOSE = Chiudi il file
+SAVE = Salva le ultime modifiche
+SAVE_AS = Salva il file con un nome differente
+QUIT = Esci da Qubicle
+IMPORT = Seleziona un file da importare
+IMPORT_QBCL = Importa un file Qubicle 3.0
+IMPORT_QMO = Importa un file Qubicle Constructor
+IMPORT_QB = Importa un file Qubicle Binario
+IMPORT_QBT = Importa un file Qubicle Binary Alberato
+IMPORT_QEF = Importa un file Qubicle Exchange
+IMPORT_VL_VOX = Importa un file Voxlap VOX
+IMPORT_KV6 = Importa un file Voxlap KV6
+IMPORT_MV_VOX = Importa un file MagicaVoxel
+IMPORT_3MP = Importa un file Paint3D
+IMPORT_BINVOX = Importa un file Binvox
+IMPORT_SCHEMATIC = Importa un file Minecraft Schematic
+IMPORT_RAWVOX = Importa un file Rawvox
+IMPORT_TIF = Importa un file TIF
+IMPORT_PNG = Importa un file PNG
+IMPORT_JPG = Importa un file JPG
+IMPORT_GIF = Importa un file GIF
+IMPORT_BMP = Importa un file BMP
+IMPORT_HEIGHTMAP = Importa un'immagine in scala di grigi come heightmap
+EXPORT = Esporta il modello nei formati supportati
+EXPORT_QB = Esporta come un file Qubicle Binary
+EXPORT_QBT = Esporta come un file Binary Tree
+EXPORT_QEF = Esporta come un file Exchange
+EXPORT_FBX = Esporta come un file FBX
+EXPORT_DAE = Esporta come un file Collada
+EXPORT_OBJ = Esporta come un file Wavefront OBJ
+EXPORT_STL = Esporta come un file STL
+EXPORT_SCHEMATIC = Esporta come un file Minecraft Schematic
+EXPORT_VL_VOX = Esporta come un file Voxlap VOX
+EXPORT_CUBES = Esporta tutti i voxel di una matrice come cubi separati
+EXPORT_SLICES = Esporta un file immagine separato per ogni parte della matrice
+SKETCHFAB = Pubblica il tuo modello su Sketchfab
+IMATERIALISE = Apri i.materialise per ordinare una stampa del tuo modello
+FILE_INFO = Modifica le informazione per questo file Qubicle
+FILE_INFO_PRESETS = Seleziona un file di informazioni predefinito per i tuoi file Qubicle
+
+[EDIT]
+UNDO = Annulla l'ultima azione
+REDO = Ripeti l'ultima azione
+CLEAR_UNDO = Pulisci la cronologia di tutte le azioni effettuate
+CUT = Rimuovi la selezione e aggiungila agli appunti
+COPY = Copia la selezione negli appunti
+PASTE = Incolla i dati dagli appunti
+PASTE_OSX = Incolla un file immagine copiato esternamente
+PASTE_WIN = Incolla un file immagine copiato esternamente
+DELETE = Rimuovi l'oggetto selezionato
+CLEAR = Pulisci la selezione o l'area di lavoro corrente
+DUPLICATE = Duplica la selezione
+DUPLICATE_SPECIAL = Duplica la selezione con opzioni di trasformazione extra
+EDIT_ISOLATED = Modifica la Matrice selezionata. Gli oggetti fantasma non saranno sovrapposti
+EDIT_IN_PLACE = Modifica la Matrice selezionata. Gli oggetti fantasma saranno sovrapposti
+EDIT_ROOT = Passa all'oggetto radice
+SHOW = Rendi l'oggetto selezionato visibile
+HIDE = Nascondi l'oggetto selezionato
+LOCK = Blocca l'oggetto selezionato
+UNLOCK = Sblocca l'oggetto selezionato
+RENAME = Rinomina l'oggetto selezionato
+PREFERENCES = Personalizza gli aspetti unici dell'interfaccia e del flusso di lavoro
+
+[VIEW]
+VIEW_SHADING = Attiva/Disattiva l'ombreggiatura dei voxel nella schermata dell'area di lavoro
+VIEW_WIREFRAME = Mostra la struttura dei voxel nella schermata dell'area di lavoro
+VIEW_BBOXES = Mostra i limiti nella schermata dell'area di lavoro
+VIEW_GRID = Mostra la griglia nella schermata dell'area di lavoro
+VIEW_MIRROR_WALL = Visualizza la parete riflettente quando lo strumento rifletti é attivo
+VIEW_GHOSTS = Mostra gli oggetti disattivati come fantasmi
+VIEW_GATE = Visualizza la finestra della risoluzione nella schermata dell'area di lavoro
+VIEW_CAM_LIGHT = Attiva/Disattiva la luce della camera nella schermata dell'area di lavoro
+VIEW_DIR_LIGHT = Attiva/Disattiva la luce direzionale nella schermata dell'area di lavoro
+GRID_PROPS = Stabilisce la dimensione dei quadrati della griglia
+COLOR_PROPS = Stabilisce i colori usati nella schermata dell'area di lavoro
+MIRROR_WALL_PROPS = Stabilisce il colore e l'opacitá della parete riflettente
+RENDER_SHADING = Attiva/Disattiva l'ombreggiatura nella schermata di render
+RENDER_WIREFRAME = Visualizza i voxel a fil di ferro nella schermata di render
+RENDER_CAM_LIGHT = Attiva/Disattiva la luce della camera nella schermata di render
+RENDER_DIR_LIGHT = Attiva/Disattiva la luce direzionale nella schermata di render
+RENDER_BACKGROUND = Visualizza e renderizza lo sfondo nella schermata di render
+RENDER_WATERMARK = Visualizza e renderizza la filigrana nella schermata di render
+BACKGROUND_PROPS = Stabilisce il colore del gradiente di sfondo
+WATERMARK_PROPS = Stabilisce il colore e il testo della filigrana
+UI_DEFAULT = L'interfaccia standard di Qubicle con tutte le barre menú mostrate
+UI_COMPACT = Rimuove la Barra di Accesso Rapido e la Barra delle Proprietá dall'interfaccia
+UI_MINIMAL = Mostra solo l'Area di Visualizzazione e la Barra di Stato
+UI_CYCLE = Scorre le differenti modalitá di visualizzazione
+VIEW_GLOBAL_SCALE = Attiva/Disattiva la Scala Globale (rapporto di forma del voxel)
+CAM_LIGHT_PROPS = Modifica gli attributi della luce della camera
+DIR_LIGHT_PROPS = Modifica gli attributi della luce direzionale
+GLOBAL_SCALE_PROPS = Modifica il rapporto di forma del voxel
+GATE_PROPS = Modifica la dimensione e la posizione della schermata di render
+VIEW_MAIN_MENU = Visualizza il menú principale all'interno della finestra di Qubicle
+
+[CREATE]
+EMPTY_MATRIX = Crea una Matrice vuota 
+BOX = Crea un cubo in una nuova Matrice
+SPHERE = Crea una sfera in una nuova Matrice
+CYLINDER = Crea un cilindro in una nuova Matrice
+CONE = Crea un cono in una nuova Matrice
+PYRAMID = Crea una piramide in una nuova Matrice
+TORUS = Crea un toro in una nuova Matrice
+RECTANGLE = Crea un rettangolo in una nuova Matrice
+DISC = Crea un disco in una nuova Matrice
+TRIANGLE = Crea un triangolo in una nuova Matrice
+TERRAIN = Apri il generatore di suolo di Qubicle
+
+[TRANSFORM] 
+ALIGN = Allinea una selezione con opzioni aggiuntive
+ALIGN_EDGES = Allinea gli oggetti all'interno di una selezione
+DISTRIBUTE = Distanzia uniformemente gli oggetti selezionati con opzioni aggiuntive
+DISTRIBUTE_EDGES = Distanzia uniformemente gli oggetti selezionati
+TRANSLATE = Cambia la posizione della selezione corrente
+ROTATE = Ruota una selezione
+SCALE = Scala una selezione
+INT_SCALE = Scala con precisione una soluzione usando valori interi
+ROTATE_90 = Ruota una selezione di 90° in senso orario sull'asse frontale
+ROTATE_90_X = Ruota una selezione di 90° in senso orario sull'asse X
+ROTATE_90_Y = Ruota una selezione di 90° in senso orario sull'asse Y
+ROTATE_90_Z = Ruota una selezione di 90° in senso orario sull'asse Z
+FLIP_HORIZONTAL = Capovolge una selezione orizzontalmente in the facing axis
+FLIP_VERTICAL = Capovolge una selezione verticalmente sull'asse frontale
+FLIP_X = Capovolge una selezione sull'asse X
+FLIP_Y = Capovolge una selezione sull'asse Y
+FLIP_Z = Capovolge una selezione sull'asse Z
+MIRROR = Riflette una selezione su un asse dal rispettivo centro
+
+[MODIFY]
+HUE_SATURATION = Regola tonalitá e saturazione della selezione corrente
+BRIGHTNESS_CONTRAST = Regola la luminositá e il contrasto della selezione corrente
+DESATURATE = Converte il colore della selezione corrente in scala di grigio
+INVERT = Inverte i colori della selezione corrente
+SEPIA = Converte i colori della selezione corrente in toni di seppia
+COLOR_OVERLAY = Sovrappone un colore alla selezione corrente
+GRADIENT_OVERLAY = Sovrappone un gradiente alla selezione corrente
+ADD_NOISE = Aggiunge rumore ai colori della selezione corrente
+APPLY_COLORS = Converte i colori della selezione corrente al colore piú prossimo della palette colore
+FILL = Applica il colore in primo piano all'intera selezione
+RESIZE = Ridimensiona i bordi dell'area di lavoro
+OPTIMIZE = Ridimensiona i bordi dell'area di lavoro ai bordi degli oggetti contenuti
+EXTEND_5_UNITS = Estende i bordi dell'area di lavoro di 5 unitá per ogni asse
+EXTEND_1_UNIT = Estende i bordi dell'area di lavoro di 1 unitá per ogni asse
+DIVIDE = Dividi l'area di lavoro in Matrici separate
+CREATE_COMPOUND = Crea una Composizione da una selezione di oggetti
+BREAK = Separa una Composizione nei diversi oggetti che la compongono
+PARENT = Aggiunge gli oggetti selezionati ad una Composizione
+UNPARENT = Rimuove gli oggetti selezionati da una Composizione
+MERGE = Crea una singola Matrice da una Composizione
+CROP = Cancella i voxels estarni ai bordi di una Composizione
+HOLLOW = Cancella i voxel del nucleo di un oggetto
+ADVANCED_HOLLOW = Regola lo spessore del guscio e cancella i voxel del nucleo
+FILL_HOLLOWS = Riempe i buchi di un oggetto
+EXTRACT_CORE = Estrae il nucleo come un oggetto separato
+REMOVE_HULL = Rimuove i voxel esterni, lasciando solo il nucleo
+UNION = Combina piú oggetti in una Matrice
+DIFFERENCE = I voxels dell'oggetto A che si sovrappongono ai voxel dell'oggetto B vengono cancellati
+INTERSECTION = Viene creata una matrice dai voxel sovrapposti di due oggetti selezionati
+PIVOT_POS = Regola la posizione del perno
+PIVOT_CENTER = Muove il perno al centro dell'oggetto
+PIVOT_ALIGN = Allinea il perno ai bordi dell'oggetto
+T-JUNCTIONS = 
+SPLIT_OFF = Estrae una selezione di voxel in una matrice separata
+LINEAR_PROJECTION = Proietta un'immagine su una matrice
+LINEAR_SNAPSHOT = Renderizza una vista ortografica di una matrice
+COUNT_VOXELS = Conta i voxel in una selezione
+
+[SELECT]
+SELECT_ALL = Seleziona tutto nell'area di lavoro corrente
+DESELECT = Annulla la selezione corrente
+INVERT_SELECTION = Inverte la selezione corrente
+SELECT_PREV = Seleziona l'oggetto precedente in base all'ordine di creazione
+SELECT_NEXT = Seleziona l'oggetto successivo in base all'ordine di creazione
+SELECT_MATRIX = Seleziona tutte le Matrici
+SELECT_COMPOUND = Seleziona tutte le Composizioni
+SELECT_EMPTY = Seleziona tutte le Matrici vuote
+SELECT_HIDDEN = Seleziona tutte gli oggetti nascosti
+SELECT_VISIBLE = Seleziona tutti gli oggetti visibili
+SELECT_LOCKED = Seleziona tutti gli oggetti bloccati
+SELECT_UNLOCKED = Seleziona tutti gli oggetti sbloccati
+
+[VOXELIZER]
+CREATE_VOXELIZER = Crea un nodo Voxelizzatore vuoto
+LOAD_MESH = Carica una mesh in un nodo Voxelizzatore
+SCALE_MESH = Riscala la mesh importata e ricalcola il risultato della voxelizzazione
+ROTATE_MESH = Ruota la mesh importata e ricalcola il risultato della voxelizzazione
+CONVERT_TO_MATRIX = Converte il Voxelizzatore in una matrice normale per modifiche manuali
+
+[TOOLS]
+SLICE_MODE = Attiva la Modalitá Parti per visualizzare e modificare le parti 2D di una Matrice
+NEXT_SLICE = Passa alla prossima parte
+PREV_SLICE = Passa alla precedente parte
+FIRST_SLICE = Passa alla prima parte
+LAST_SLICE = Passa all'ultima parte
+MASK = Abilita Maschera per prevenire la modifica dei voxel selezionati
+TRACE_STROKE = Abilita Traccia Contorno per riempire gli spazi dei contorni a mano libero
+MIRROR_X =  Attiva/Disattiva la riflessione delle azioni dello strumento sull'asse X
+MIRROR_Y = Attiva/Disattiva la riflessione delle azioni dello strumento sull'asse Y
+MIRROR_Z = Attiva/Disattiva la riflessione delle azioni dello strumento sull'asse Z
+APPLY_ATTACH = Applica le azioni dello strumento e collega i voxel scollegati
+APPLY_ATTACH_LOSSLESS = Applica le azioni dello strumento. collega i voxel scollegati e ridimensiona l'area di lavoro se necessario
+MOVE_TOOL = Seleziona e muove gli oggeti o i voxel
+RECTANGULAR_SELECT_TOOL = Seleziona gli oggetti o i voxel in un'area rettangolare
+EYEDROPPER_TOOL = Prende il colore in primo o in secondo piano di un voxel
+PENCIL_TOOL = Disegna i voxel. Alternativamente una linea tenendo premuto Maiusc o un rettangolo premendo Ctrl
+ATTACH_VOXEL_TOOL = Collega i voxel. Alternativamente una linea tenendo premuto Maiusc o un rettangolo premendo Ctrl
+ERASER_TOOL = Rimuove i voxel. Alternativamente una linea tenendo premuto Maiusc o un rettangolo premendo Ctrl
+PAINT_TOOL = Colora i voxel. Alternativamente una linea tenendo premuto Maiusc o un rettangolo premendo Ctrl
+PAINT_BUCKET_TOOL = Ricolora i voxel dello stesso colore o di un colore simile
+MAGIC_WAND_TOOL = Seleziona i voxel dello stesso colore o di un colore simile
+FREEHAND_TOOL = Disegna voxel. Alternativamente aggiunge voxel premendo Maiusc o li rimuove premendo Ctrl
+LINE_TOOL = Disegna linea. Alternativamente aggiunge voxel premendo Maiusc o li rimuove premendo Ctrl
+RECTANGLE_TOOL = Disegna rettangoli. Alternativamente aggiunge voxel premendo Maiusc o li rimuove premendo Ctrl
+BOX_TOOL = Disegna cubi. Alternativamente aggiunge cubi premendo Maiusc o li rimuove premendo Ctrl
+SPHERE_TOOL = Disegna sfere. Alternativamente aggiunge sfere premendo  Maiusc o le rimuove premendo Ctrl
+PYRAMID_TOOL = Disegna piramidi. Alternativamente aggiunge piramidi premendo Maiusc o le rimuove premendo Ctrl
+CYLINDER_TOOL = Disegna cilindri. Alternativamente aggiunge cilindri premendo Maiusc o li rimuove premendo Ctrl
+CONE_TOOL = Disegna coni. Alternativamente aggiunge coni premendo Maiusc o li rimuove premendo Ctrl
+EXTRUDE_TOOL = Estrude i voxel in un area rettangolare
+PAINT_SELECTION_TOOL = Dipinge liberamente una selezione
+BOX_SELECT_TOOL = Seleziona i voxel in un area 3D rettangolare
+RESIZE_TOOL = Ridimensiona l'area di lavoro delle Matrici e delle Composizioni
+CONTIGUOUS = Attiva/Disattiva Contiguo per influenzare solo le aree di colore collegate invece che tutti i voxel dello stesso colore
+TOLERANCE = Tolleranza imposta la variazione nel colore dell'area interessata
+SWITCH_BACK = Ritorna automaticamente allo strumento precedente dopo che é stato raccolto un colore
+
+[COLORS]
+OPEN_QSM = Apre un file Qubicle Swatch Map
+SAVE_AS_QSM = Salva la palette colore corrente come un file Qubicle Swatch Map
+IMPORT_QCM = Importa una palette di 1 colore Qubicle
+IMPORT_QCP = Importa un pacchetto di palette di 1 colore Qubicle
+IMPORT_ASE = Importa un file Adobe Swatch Exchange
+IMPORT_CSV = Importa un file CSV
+EXPORT_CSV = Esporta la palette colore corrente come un file CSV
+RESET_COLORS = Ripristina i colori predefiniti
+CLEAR_COLORS = Pulisce la palette colore
+PACK_COLORS = Riposiziona i colori per rimuovere i quadrati vuoti nella palette colore
+REMOVE_DUPLICATES = Rimuove tutti i colori duplicati dalla palette colore
+ADD_USED_COLORS = Aggiunge nuovi colori alla palette colore
+per tutti i colori usati nel modello CREATE_GRADIENT = Crea una sfumatura tra due colori selezionati dalla palette colore
+AUTO_NAME = Applica nomi standard per tutti i colori della palette colore
+CLEAR_NAMES = Rimuove i nomi di tutti i colori della palette colore
+SWAP_COLORS = Scambia il colore primario e secondario
+DEFAULT_COLORS = Ripristina il nero come colore primario e il bianco come secondario
+
+[CAMERA]
+FRAME = Centra la selezione corrente nella camera
+FRAME_WORK_AREA = Centra la corrente area di lavoro nella camera
+CAM_HOME = Ritorna alla vista isometrica dall'alto-frontale-sinistra predefinita
+CAM_PERP = Passa alla vista perpendicolare
+CAM_NEAREST_PERP = Passa alla più vicina vista perpendicolare
+CAM_ISO = Passa ad una vista isometrica
+CAM_NEAREST_ISO = Passa alla più vicina vista isometrica
+CAM_PROPERTIES = Regola l'esatto orientamento della camera
+
+[RENDER]
+RENDER_IMAGE = Esporta la corrente vista render come un file PNG
+RENDER_TURNTABLE = Esporta una sequenza PNG della rotazione a 360° del modello
+
+[GAMES]
+EDIT_MC_BLOCKS = Modifica i blocchi per l'importazione e l'esportazione per Minecraft Schematic
+RESET_MC_BLOCKS = Ripristina i blocchi Minecraft Schematic a predefinito
+APPLY_MC_BLOCKS = Ricolora tutti i voxel di una selezione, del colore più vicino di un blocco selezionato
+CREATE_MC_COLORS = Aggiungi tutti i colori del blocco selezionato alla palette colore
+NEW_STAXEL_MALE = Apri il modello base maschile Staxel
+NEW_STAXEL_FEMALE = Apri il modello base femminile Staxel
+IMPORT_STAXEL = Importa un file Staxel
+IMPORT_STAXEL_AND_REPLACE = Importa un file Staxel, sostituendo le Matrici del modello base con lo stesso nome
+EXPORT_STAXEL_HAIR = Esporta i capelli del modello Staxel
+EXPORT_STAXEL_SHIRT = Esporta la camicia del modello Staxel
+EXPORT_STAXEL_TROUSERS = Esporta i pantaloni del modello Staxel
+EXPORT_STAXEL_SHOES = Esporta le scarpe del modello Staxel
+
+[HELP]
+ABOUT_QUBICLE = Visualizza le informazioni su questa versione di Qubicle
+OPEN_LEARNING_RESOURCES = Apre le risorse di apprendimento  nel browser
+HELP_INTRO = Apre il tutorial introduttivo nel browser
+HELP_DOCU = Apre l'intera documentazione nel browser
+HELP_HOWTO = Apre i tutorial nel browser
+HELP_FILE_SPECS = Apre le specifiche dei file per i formati di scambio di Qubicle nel browser
+HELP_GAME_DEV = Apre i tutorial per lo sviluppo dei giochi nel browser
+HELP_FORUM = Apre il forum di Qubicle nel browser
+HELP_TWITTER = Segui @QBCL su Twitter per aggiornamenti e annunci
+RESET_QUBICLE = Reimposta i valori di Qubicle predefiniti
+CHECK_FOR_UPDATES = Controlla la disponibilità di aggiornamenti. Richiede una connessione internet
+REMOVE_LICENSE = Rimuove la licenza di Qubicle da questo computer
+
+[UI]
+ADD_COLOR = Aggiunge il colore in primo piano alla palette colore
+REMOVE_COLOR = Rimuove i colori selezionati
